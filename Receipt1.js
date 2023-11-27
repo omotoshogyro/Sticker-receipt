@@ -1,0 +1,155 @@
+import React from 'react'
+import Svg, { G, Path, Rect, Defs, ClipPath } from "react-native-svg"
+
+
+function Receipt1() {
+  return (
+    <Svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={181}
+    height={203}
+    fill="none"
+  >
+    <G filter="url(#a)">
+      <Path
+        fill="#fff"
+        stroke="#E5EDFF"
+        d="M30.645 179.108V21.998a4 4 0 0 1 4-4h111.711a4 4 0 0 1 4 4v156.31c0 3.026-3.23 4.956-5.895 3.523l-5.611-3.019a3.996 3.996 0 0 0-3.693-.051l-10.63 5.351a4.003 4.003 0 0 1-3.552.022l-11.026-5.376a3.995 3.995 0 0 0-3.754.132l-8.736 5.048a4 4 0 0 1-3.755.132l-11.106-5.415a4 4 0 0 0-3.421-.041l-12.298 5.644a3.998 3.998 0 0 1-3.26.035l-13.397-5.807a4 4 0 0 0-3.069-.047l-11.03 4.386c-2.626 1.044-5.477-.891-5.477-3.717Z"
+      />
+      <G clipPath="url(#b)">
+        <Rect
+          width={23}
+          height={23}
+          x={80.645}
+          y={27}
+          fill="#F5F7FC"
+          rx={11.5}
+        />
+        <Path
+          fill="#00A1FB"
+          d="M105.842 53.616a.717.717 0 0 1-.716.716H85.078a.716.716 0 0 1 0-1.432h20.048a.715.715 0 0 1 .716.716Zm-20.738-9.829a.716.716 0 0 1 .315-.805l9.308-5.728a.716.716 0 0 1 .75 0l9.308 5.728a.716.716 0 0 1-.375 1.326h-2.148v5.728h1.432a.715.715 0 1 1 0 1.432H86.51a.716.716 0 1 1 0-1.432h1.432v-5.728h-2.148a.716.716 0 0 1-.69-.52Zm11.43 5.533a.716.716 0 0 0 1.432 0v-4.296a.716.716 0 1 0-1.432 0v4.296Zm-4.296 0a.716.716 0 1 0 1.432 0v-4.296a.716.716 0 1 0-1.432 0v4.296Z"
+        />
+      </G>
+      <Rect
+        width={32.221}
+        height={3}
+        x={76.035}
+        y={58}
+        fill="#F5F7FC"
+        rx={1.5}
+      />
+      <Rect
+        width={12.448}
+        height={3}
+        x={67.803}
+        y={71}
+        fill="#F5F7FC"
+        rx={1.5}
+      />
+      <Rect
+        width={32.221}
+        height={3}
+        x={84.266}
+        y={71}
+        fill="#E7EEFF"
+        rx={1.5}
+      />
+      <Rect
+        width={32.221}
+        height={3}
+        x={84.266}
+        y={81.424}
+        fill="#E7EEFF"
+        rx={1.5}
+      />
+      <Rect
+        width={32.221}
+        height={3}
+        x={84.266}
+        y={91.848}
+        fill="#E7EEFF"
+        rx={1.5}
+      />
+      <Rect
+        width={32.221}
+        height={3}
+        x={84.266}
+        y={102.272}
+        fill="#E7EEFF"
+        rx={1.5}
+      />
+      <Rect
+        width={32.221}
+        height={3}
+        x={84.266}
+        y={112.695}
+        fill="#E7EEFF"
+        rx={1.5}
+      />
+      <Rect
+        width={32.221}
+        height={3}
+        x={84.266}
+        y={123.119}
+        fill="#E7EEFF"
+        rx={1.5}
+      />
+      <Rect
+        width={12.448}
+        height={3}
+        x={67.803}
+        y={81.424}
+        fill="#F5F7FC"
+        rx={1.5}
+      />
+      <Rect
+        width={12.448}
+        height={3}
+        x={67.803}
+        y={91.848}
+        fill="#F5F7FC"
+        rx={1.5}
+      />
+      <Rect
+        width={12.448}
+        height={3}
+        x={67.803}
+        y={102.272}
+        fill="#F5F7FC"
+        rx={1.5}
+      />
+      <Rect
+        width={12.448}
+        height={3}
+        x={67.803}
+        y={112.695}
+        fill="#F5F7FC"
+        rx={1.5}
+      />
+      <Rect
+        width={12.448}
+        height={3}
+        x={67.803}
+        y={123.119}
+        fill="#F5F7FC"
+        rx={1.5}
+      />
+      <Rect
+        width={32.221}
+        height={3}
+        x={67.803}
+        y={138.119}
+        fill="#F5F7FC"
+        rx={1.5}
+      />
+    </G>
+    <Defs>
+      <ClipPath id="b">
+        <Rect width={23} height={23} x={80.645} y={27} fill="#fff" rx={11.5} />
+      </ClipPath>
+    </Defs>
+  </Svg>
+  )
+}
+
+export default Receipt1
